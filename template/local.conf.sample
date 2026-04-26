@@ -303,3 +303,8 @@ BUILDHISTORY_IMAGE_FILES = "/etc/passwd /etc/group"
 
 # add usbutils to the image
 CORE_IMAGE_EXTRA_INSTALL += "usbutils"
+
+# External source configuration
+# INHERIT += "externalsrc"
+# EXTERNALSRC_pn-nano = "${COREBASE}/../externalsrc/nano"
+# EXTERNALSRC_BUILD_pn-nano = "${COREBASE}/../externalsrc/nano"
