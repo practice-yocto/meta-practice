@@ -300,3 +300,6 @@ BUILDHISTORY_COMMIT = "1"
 BUILDHISTORY_COMMIT_AUTHOR = "JunKi Hong <dylanhong920509@gmail.com>"
 BUILDHISTORY_DIR = "${TOPDIR}/buildhistory"
 BUILDHISTORY_IMAGE_FILES = "/etc/passwd /etc/group"
+
+# add usbutils to the image
+CORE_IMAGE_EXTRA_INSTALL += "usbutils"
