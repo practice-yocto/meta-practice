@@ -316,3 +316,6 @@ CORE_IMAGE_EXTRA_INSTALL += "usbutils"
 BBMASK = "\
     ../layers/meta-helloworld/recipes-helloworld/ \
     "
+
+# Enable splash screen support
+EXTRA_IMAGE_FEATURES += "splash"
