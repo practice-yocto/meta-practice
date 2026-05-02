@@ -308,3 +308,11 @@ CORE_IMAGE_EXTRA_INSTALL += "usbutils"
 # INHERIT += "externalsrc"
 # EXTERNALSRC_pn-nano = "${COREBASE}/../externalsrc/nano"
 # EXTERNALSRC_BUILD_pn-nano = "${COREBASE}/../externalsrc/nano"
+
+# BBMASK is used to exclude certain layers or recipes from the build.
+# This can be useful if you have multiple layers that contain recipes with the same name
+# and you want to ensure that only one of them is used in the build.
+# By adding a layer or recipe to BBMASK, you are telling BitBake to ignore it during the build process.
+BBMASK = "\
+    ../layers/meta-helloworld/recipes-helloworld/ \
+    "
