@@ -319,3 +319,6 @@ BBMASK = "\
 
 # Enable splash screen support
 EXTRA_IMAGE_FEATURES += "splash"
+
+# allows the interactive session to run within your existing terminal.
+OE_TERMINAL = "tmux"
