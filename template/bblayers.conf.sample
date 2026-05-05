@@ -13,4 +13,5 @@ BBLAYERS ?= " \
   ##OEROOT##/../layers/meta-nano-editor \
   ##OEROOT##/../layers/meta-practice \
   ##OEROOT##/../layers/meta-practice-bsp \
+  ##OEROOT##/../layers/meta-customer \
   "

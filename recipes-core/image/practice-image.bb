@@ -5,7 +5,11 @@ inherit practice-base-image
 LINGUAS_KO_KR = "ko-kr"
 LINGUAS_EN_US = "en-us"
 IMAGE_LINGUAS = "${LINGUAS_KO_KR} ${LINGUAS_EN_US}"
-IMAGE_INSTALL += "packagegroup-practice"
+
+# replace as 'layers/meta-customer/recipes-core/images/practice-image.bbappend'
+# IMAGE_INSTALL += "packagegroup-practice"
+
+# replace as 'layers/meta-practice-bsp/conf/machine/practice.conf'
 # IMAGE_INSTALL += "practice-kernel-module"
 
 IMAGE_OVERHEAD_FACTOR = "1.3"
